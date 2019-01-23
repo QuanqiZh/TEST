@@ -1,0 +1,5 @@
+Changes:
+
+1. In the pq.c file, in the PQ_delete() function, I add a PrioQ *temp to store the pointer of PQ->next. 
+
+2. In the PQ_free() function, I add a PrioQ *temp to store the pointer of PQ->next. 

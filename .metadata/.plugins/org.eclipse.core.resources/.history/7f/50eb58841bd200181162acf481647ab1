@@ -1,0 +1,89 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 14, 2018
+ *      Author: zzq
+ */
+
+
+//
+//  main.c
+//  PRO3
+//
+//  Created by Zhiquan Zhang on 10/13/18.
+//  Copyright © 2018 Zhiquan Zhang. All rights reserved.
+//
+
+#include <stdio.h>
+#include "stdlib.h"
+#include "string.h"
+/////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Data Structures for Components
+//
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+// maximum number of components that can be defined for the simulation
+#define MAXCOMPONENTS    100
+
+// Component types
+#define     GENERATOR       0
+#define     FORK            1
+#define     QUEUE_STATION   2
+#define     EXIT            3
+//
+// Generator Component
+//
+struct Generator {
+    double IntArrTime;     // mean interarrival time for generated components
+    int DestComp;          // ID of next component customers are sent to
+};
+
+
+//
+// Queue_Station Component
+//
+struct Queue_Station{
+    int numCust;
+    struct FIFOQueue *Q;
+    double AvgWaitTime;
+    int DestComp;
+};
+
+
+//
+// Fork Component
+//
+struct Fork{
+    int num;
+    double* probability;
+    int* DestComp;
+};
+
+
+//
+// Exit component
+//
+struct Exit {
+    int Count;              // number of customers that exited at this component
+};
+
+// global, master list of components
+struct {
+    int ComponentType;  // GENERATOR, QUEUE_STATION, FORK, EXIT
+    void *Comp;         // Pointer to information on component (Generator, Exit struct, etc.)
+} Component[MAXCOMPONENTS];
+
+
+
+int main() {
+    //char* configPath = "config.txt";
+   char* a = "0.3123.124";
+   char* b = "2.3123.123";
+   float a_zheng = atof(a);
+   float b_zheng = atof(b);
+   printf("a_zheng is %f, b zheng is %f", a_zheng, b_zheng);
+
+}
+
+

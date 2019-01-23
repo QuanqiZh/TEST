@@ -1,0 +1,111 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 14, 2018
+ *      Author: zzq
+ */
+
+
+//
+//  main.c
+//  PRO3
+//
+//  Created by Zhiquan Zhang on 10/13/18.
+//  Copyright © 2018 Zhiquan Zhang. All rights reserved.
+//
+
+#include <stdio.h>
+#include "stdlib.h"
+#include "string.h"
+/////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Data Structures for Components
+//
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+// maximum number of components that can be defined for the simulation
+#define MAXCOMPONENTS    100
+
+// Component types
+#define     GENERATOR       0
+#define     FORK            1
+#define     QUEUE_STATION   2
+#define     EXIT            3
+//
+// Generator Component
+//
+struct Generator {
+    double IntArrTime;     // mean interarrival time for generated components
+    int DestComp;          // ID of next component customers are sent to
+};
+
+
+//
+// Queue_Station Component
+//
+struct Queue_Station{
+    int numCust;
+    struct FIFOQueue *Q;
+    double AvgWaitTime;
+    int DestComp;
+};
+
+
+//
+// Fork Component
+//
+struct Fork{
+    int num;
+    double* probability;
+    int* DestComp;
+};
+
+
+//
+// Exit component
+//
+struct Exit {
+    int Count;              // number of customers that exited at this component
+};
+
+// global, master list of components
+struct {
+    int ComponentType;  // GENERATOR, QUEUE_STATION, FORK, EXIT
+    void *Comp;         // Pointer to information on component (Generator, Exit struct, etc.)
+} Component[MAXCOMPONENTS];
+
+void check_format(char* ch){
+    int len = (int)strlen(ch);
+    printf("%d!!!\n",len);
+    for(int i=0; i<len; i++){
+        if((ch[i]<'0' || ch[i]>'9') && ch[i] != '.' && ch[i] != 'G'
+           && ch[i] != 'Q' && ch[i] != 'F' && ch[i] != 'X'){
+            printf("Unrecognized character contained!");
+        exit(1);
+        }
+    }
+}
+
+int main() {
+    //char* configPath = "config.txt";
+	double* pro;
+	pro[0] = 0.1;
+	pro[1] = 0.1;
+	pro[2] = 0.71;
+	pro[3] = 0.09;
+	double sum = 0;
+	for(int i=0; i<4; i++){
+		sum += pro[i];
+	}
+	printf("sum = %f", sum);
+	if(sum < 1){
+		printf("sum is %f\n", sum);
+		printf("Less than 1!");
+	}else{
+		printf("Nothing!");
+	}
+
+   return 1;
+}
+
+

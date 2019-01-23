@@ -1,0 +1,16 @@
+1.config.c line 116: add the code for checking whether the destination is of int type.
+
+2.config.c line 149: add the code for checking whether the destination is of int type.
+
+3.config.c line 200: add the code for checking whether the destination is of int type.
+
+4.config.c line 230
+
+5.config.c line 304: add the code for checking whether the destination is itself.
+
+6.config.c line 348: add the code for checking parameter.
+
+7.config.c line 393: add the function for checking whether the EXIT component has any entry.
+
+8.config.h line 51: add the function's declaration.
+

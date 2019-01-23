@@ -1,0 +1,3661 @@
+21:34:03 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:34:05 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:34:50 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+21:34:50 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:34:50 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:34:51 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:34:51 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:34:51 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:34:51 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:34:53 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:35:17 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:35:17 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:35:17 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:35:18 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:35:18 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:35:18 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:35:18 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:35:20 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:42:31 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:42:32 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:42:32 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:42:32 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:42:32 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:42:32 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:42:33 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:42:39 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:43:01 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:43:01 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:01 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:01 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:02 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:43:02 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:02 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:43:04 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:43:16 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:43:17 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:43:17 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:18 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:18 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:18 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:43:18 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:18 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:43:20 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:43:49 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:43:49 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:50 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:50 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:50 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:43:50 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:43:50 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:43:52 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:44:01 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:44:12 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:44:13 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:13 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:13 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:13 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:44:13 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:13 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:44:15 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:44:26 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:44:26 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:27 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:27 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:27 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:44:27 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:27 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:44:28 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:44:48 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:44:49 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:49 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:49 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:49 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:44:49 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:44:49 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:44:51 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:45:01 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:01 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:01 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:01 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:02 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:45:02 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:02 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:45:03 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:45:25 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:26 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:26 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:26 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:26 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:45:26 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:26 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:45:28 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:45:40 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:45:40 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:40 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:41 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:41 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:45:41 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:45:41 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:45:43 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:46:06 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:46:06 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:06 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:06 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:06 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:46:06 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:06 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:46:08 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:46:36 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:46:36 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:37 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:37 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:37 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:46:37 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:46:37 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:46:39 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:50:04 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:50:04 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:05 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:05 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:05 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:50:05 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:05 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:50:08 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:50:29 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:50:29 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:29 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:30 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:30 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:50:30 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:50:30 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:52:24 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+21:52:24 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:24 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:24 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:25 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:52:25 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:25 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:52:29 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:52:32 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:52:33 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:52:33 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:52:34 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:52:35 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:52:36 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:52:53 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+21:52:53 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:54 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:54 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:54 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:52:54 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:52:54 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:52:56 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:53:16 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:53:16 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:53:17 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:53:17 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:53:17 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:53:17 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:53:17 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:53:22 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:54:49 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:54:49 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:54:49 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:54:49 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:54:50 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:54:50 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:54:50 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:55:11 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:55:18 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:18 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:19 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:19 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:19 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:55:19 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:19 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:55:20 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:55:26 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:26 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:26 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:26 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:26 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:55:27 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:27 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:55:28 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:55:36 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:36 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:36 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:36 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:36 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:55:37 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:37 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:55:40 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:55:45 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:55:45 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:45 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:45 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:45 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:55:45 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:55:46 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:55:47 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:56:10 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:56:10 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:10 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:10 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:11 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:56:11 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:11 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:56:15 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:56:27 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:56:27 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:27 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:27 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:27 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:56:28 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:28 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:56:29 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:56:34 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:56:35 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:35 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:35 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:35 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:56:35 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:56:35 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:56:36 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:57:52 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:58:10 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:41:35: error: too many arguments to function call, expected single argument '__size', have 2 arguments
+        gra->vertex = malloc(gra->vertex,5*sizeof(vertexNode));
+                      ~~~~~~             ^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+21:58:11 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:11 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:11 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:11 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:58:11 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:11 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:58:22 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:41:23: warning: incompatible pointer to integer conversion passing 'vertexNode *' (aka 'struct vertexNode *') to parameter of type 'unsigned long' [-Wint-conversion]
+        gra->vertex = malloc(gra->vertex);
+                             ^~~~~~~~~~~
+/usr/include/stdlib.h:160:21: note: passing argument to parameter '__size' here
+void    *malloc(size_t __size) __result_use_check __alloc_size(1);
+                       ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+21:58:22 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:22 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:23 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:23 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:58:23 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:58:23 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:58:25 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:59:47 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+21:59:49 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:59:49 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:49 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:49 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:49 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:59:49 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:49 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:59:50 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+21:59:58 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+21:59:58 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:59 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:59 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:59 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+21:59:59 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+21:59:59 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:00:01 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:00:47 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:00:47 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:00:47 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:00:47 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:00:47 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:00:48 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:00:48 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:00:49 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:09:53 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:10:01 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:41:23: warning: incompatible pointer to integer conversion passing 'vertexNode *' (aka 'struct vertexNode *') to parameter of type 'unsigned long' [-Wint-conversion]
+        gra->vertex = malloc(gra->vertex);
+                             ^~~~~~~~~~~
+/usr/include/stdlib.h:160:21: note: passing argument to parameter '__size' here
+void    *malloc(size_t __size) __result_use_check __alloc_size(1);
+                       ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+22:10:01 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:02 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:02 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:02 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:10:02 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:02 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:10:04 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:10:40 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+22:10:40 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:40 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:40 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:40 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:10:41 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:41 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:10:42 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:10:52 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+22:10:52 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:52 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:53 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:53 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:10:53 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:10:53 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:10:54 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:11:24 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:37:2: warning: variable 'gra' is uninitialized when used here [-Wuninitialized]
+        gra->vertex = malloc(500*sizeof(vertexNode));
+        ^~~
+../main.c:35:12: note: initialize the variable 'gra' to silence this warning
+        graph* gra;
+                  ^
+                   = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PointerTest
+Invoking: MacOS X C Linker
+gcc  -o "PointerTest"  ./main.o   
+Finished building target: PointerTest
+ 
+22:11:24 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:11:25 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:11:25 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:11:25 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:11:25 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:11:25 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:11:27 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:11:28 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:12:22 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:12:22 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:22 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:22 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:23 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:12:23 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:23 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:12:31 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:12:31 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:31 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:31 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:32 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:12:32 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:12:32 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:12:34 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:12:35 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:23 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:13:23 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:23 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:24 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:24 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:13:24 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:24 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:26 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:32 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:13:33 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:33 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:33 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:33 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:13:33 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:33 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:13:34 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:13:34 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:35 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:35 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:35 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:13:35 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:35 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:37 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:38 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:39 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:42 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:13:42 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:42 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:42 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:43 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:13:43 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:43 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:43:36: error: too many arguments to function call, expected single argument '__size', have 2 arguments
+                gra->vertex = malloc(gra->vertex,(number+1)*sizeof(vertexNode));
+                              ~~~~~~             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [main.o] Error 1
+22:13:49 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:13:49 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:49 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:49 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:50 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:13:50 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:13:50 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:13:51 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:13:53 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:14:16 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:14:16 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:16 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:16 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:16 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:14:16 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:16 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"graph.d" -MT"graph.o" -o "graph.o" "../graph.c"
+Finished building: ../graph.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:14:19 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:14:56 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:14:56 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:56 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:56 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:56 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:14:57 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:14:57 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:14:58 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:15:03 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:15:03 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:03 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:04 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:04 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:15:04 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:04 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:15:05 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:15:09 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:15:09 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:09 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:09 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:10 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:15:10 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:10 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:15:11 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:15:23 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:15:23 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:23 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:23 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:24 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:15:24 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:24 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:15:25 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:15:29 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:15:29 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:30 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:30 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:30 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:15:30 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:30 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:15:31 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:15:53 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:15:53 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:53 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:53 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:53 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:15:53 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:15:54 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:15:56 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:16:01 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:16:01 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:02 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:02 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:02 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:16:02 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:02 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:16:03 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:16:09 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:16:09 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:10 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:10 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:10 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:16:10 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:10 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:16:11 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:16:16 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:16:16 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:16 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:16 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:16 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:16:17 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:17 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:16:20 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:16:33 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:16:33 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:33 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:33 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:33 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:16:33 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:33 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:16:35 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:16:44 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:16:44 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:44 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:45 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:45 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:16:45 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:45 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:16:46 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:16:56 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:16:57 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:57 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:57 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:57 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:16:57 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:16:57 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:16:59 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:17:17 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:17:17 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:17:18 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:17:18 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:17:18 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:17:18 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:17:18 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:17:20 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+22:37:06 **** Incremental Build of configuration Debug for project PointerTest ****
+make all 
+make: Nothing to be done for `all'.
+22:37:07 **** Incremental Build of configuration Debug for project hw1 ****
+make all 
+make: Nothing to be done for `all'.
+22:37:07 **** Incremental Build of configuration Debug for project hw2 ****
+make all 
+make: Nothing to be done for `all'.
+22:37:07 **** Incremental Build of configuration Debug for project hw3 ****
+make all 
+make: Nothing to be done for `all'.
+22:37:07 **** Incremental Build of configuration Debug for project hw4proj ****
+make all 
+make: Nothing to be done for `all'.
+22:37:07 **** Incremental Build of configuration Debug for project hw4proj2 ****
+make all 
+make: Nothing to be done for `all'.
+22:37:07 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: runfordata
+Invoking: MacOS X C Linker
+gcc  -o "runfordata"  ./graph.o ./main.o   
+Finished building target: runfordata
+ 
+22:37:10 **** Incremental Build of configuration Debug for project runfordata ****
+make all 
+make: Nothing to be done for `all'.
+17:36:09 **** Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:36:19 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:36:43 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:36:49 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:37:22 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:37:24 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:37:31 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:37:34 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:37:37 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:37:38 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:41:02 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:41:05 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:41:51 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    printf("%d",sizeof(st));
+            ~~  ^~~~~~~~~~
+            %lu
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:42:11 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:20: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+    printf("%ul\n",sizeof(st));
+            ~~     ^~~~~~~~~~
+            %lu
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:42:17 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:42:19 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:42:30 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:20: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+    printf("%ch\n",sizeof(st));
+            ~~     ^~~~~~~~~~
+            %lu
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:42:35 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:20: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+    printf("%ch\n",st);
+            ~~     ^~
+            %s
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:42:40 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:42:42 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:42:50 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:42:52 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:44:32 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:44:34 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:46:10 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:46:12 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:46:33 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:111:17: warning: result of comparison against a string literal is unspecified (use strncmp instead) [-Wstring-compare]
+        if(type == "G"){
+                ^  ~~~
+../main.c:111:17: warning: comparison between pointer and integer ('int' and 'char *')
+        if(type == "G"){
+           ~~~~ ^  ~~~
+2 warnings generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:46:36 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:47:22 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:47:24 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:48:01 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:48:02 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:48:30 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:48:32 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:48:53 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:48:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:49:52 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:49:54 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:50:34 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:50:40 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:50:42 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:51:05 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:51:11 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:51:12 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:52:12 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:52:14 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:52:48 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:52:49 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:55:10 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:55:12 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:57:13 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:105:26: warning: invalid conversion specifier '\x0a' [-Wformat-invalid-specifier]
+                printf("%\n",type);
+                        ~^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:57:19 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:57:21 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:57:31 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:57:33 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:57:59 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:58:00 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:59:05 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:59:07 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:49:27 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:49:29 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:50:32 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:52:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+09:52:57 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:55:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:56:05 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:56:07 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:56:41 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+09:56:42 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:03:49 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:03:50 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:04:18 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:04:20 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:05:04 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:05:06 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:05:40 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:05:42 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:07:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:07:57 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:08:28 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:08:57 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:08:59 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:09:32 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:09:34 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+19:54:23 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+19:54:25 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+20:24:14 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:80:11: warning: unused variable 'f1' [-Wunused-variable]
+    FILE* f1;
+          ^
+../main.c:87:1: error: extraneous closing brace ('}')
+}
+^
+1 warning and 1 error generated.
+make: *** [main.o] Error 1
+20:24:22 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:86:1: error: extraneous closing brace ('}')
+}
+^
+1 error generated.
+make: *** [main.o] Error 1
+20:24:27 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+20:24:29 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+20:24:57 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:83:11: warning: unused variable 'test' [-Wunused-variable]
+   double test = atof(pop);
+          ^
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+20:25:04 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:84:20: error: expected ')'
+   printf("%d",test]);
+                   ^
+../main.c:84:10: note: to match this '('
+   printf("%d",test]);
+         ^
+../main.c:84:21: error: expected expression
+   printf("%d",test]);
+                    ^
+2 errors generated.
+make: *** [main.o] Error 1
+20:25:09 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:84:16: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+   printf("%d",test);
+           ~~  ^~~~
+           %f
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+20:25:19 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+20:25:21 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+20:25:40 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+20:25:42 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+21:01:02 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+21:01:05 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+21:04:56 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:83:23: error: passing 'float' to parameter of incompatible type 'const char *'
+   int a_zheng = atoi(a);
+                      ^
+/usr/include/stdlib.h:140:23: note: passing argument to parameter here
+int      atoi(const char *);
+                          ^
+../main.c:84:23: error: passing 'float' to parameter of incompatible type 'const char *'
+   int b_zheng = atoi(b);
+                      ^
+/usr/include/stdlib.h:140:23: note: passing argument to parameter here
+int      atoi(const char *);
+                          ^
+2 errors generated.
+make: *** [main.o] Error 1
+21:05:29 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+21:05:31 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:43:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:43:58 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:47:06 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:47:09 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:47:17 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+10:47:20 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:47:35 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+10:47:36 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+13:32:40 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+13:32:42 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+15:54:45 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+15:54:49 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+16:04:43 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+16:04:45 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+16:19:22 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+16:19:23 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+16:20:01 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+16:20:03 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+16:20:28 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+16:20:38 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+16:20:40 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+16:22:05 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+16:22:06 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:17:17 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:91:17: error: initializing 'double *' with an expression of incompatible type 'double'
+        double* pro = {0.1, 0.1, 0.7, 0.1};
+                       ^~~
+1 error generated.
+make: *** [main.o] Error 1
+14:18:10 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:3: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        *pro = 0.1;
+         ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:18:18 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:18:22 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:3: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        *pro = 0.1;
+         ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:18:24 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:18:26 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:18:27 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:19:06 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:19:10 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:3: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        *pro = 0.1;
+         ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:19:19 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:3: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        *pro = 0.1;
+         ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:19:21 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:21:13 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:21:24 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:3: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        *pro = 0.1;
+         ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:21:28 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:21:30 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:21:35 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:3: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        *pro = 0.1;
+         ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:21:37 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:21:58 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:3: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        *pro = 0.1;
+         ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:22:00 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:24:18 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:24:21 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:24:59 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:25:23 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:25:24 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:25:26 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:25:46 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:25:47 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:26:31 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:26:59 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:27:02 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:27:16 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:27:18 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:27:24 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:92:2: warning: variable 'pro' is uninitialized when used here [-Wuninitialized]
+        pro[0] = 0.1;
+        ^~~
+../main.c:91:13: note: initialize the variable 'pro' to silence this warning
+        double* pro;
+                   ^
+                    = NULL
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:28:00 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:28:04 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:28:06 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+14:28:45 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:28:58 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:100:21: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+        printf("sum = %d", sum);
+                      ~~   ^~~
+                      %f
+1 warning generated.
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+14:29:20 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./main.o   
+Finished building target: PRO3TEST
+ 
+17:01:58 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../application.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"application.d" -MT"application.o" -o "application.o" "../application.c"
+Finished building: ../application.c
+ 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:333:5: warning: implicit declaration of function 'rand_init' is invalid in C99 [-Wimplicit-function-declaration]
+    rand_init(-1);
+    ^
+../config.c:366:5: warning: implicit declaration of function 'RunSim' is invalid in C99 [-Wimplicit-function-declaration]
+    RunSim(240.0);
+    ^
+2 warnings generated.
+Finished building: ../config.c
+ 
+Building file: ../engine.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"engine.d" -MT"engine.o" -o "engine.o" "../engine.c"
+Finished building: ../engine.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../random.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"random.d" -MT"random.o" -o "random.o" "../random.c"
+Finished building: ../random.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./main.o ./random.o   
+Finished building target: PRO3TEST
+ 
+17:02:03 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:02:40 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:03:20 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:03:22 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:10:10 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:333:5: warning: implicit declaration of function 'rand_init' is invalid in C99 [-Wimplicit-function-declaration]
+    rand_init(-1);
+    ^
+../config.c:366:5: warning: implicit declaration of function 'RunSim' is invalid in C99 [-Wimplicit-function-declaration]
+    RunSim(240.0);
+    ^
+2 warnings generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./main.o ./random.o   
+Finished building target: PRO3TEST
+ 
+17:10:12 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:11:08 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:11:11 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:11:56 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+19:38:57 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:333:5: warning: implicit declaration of function 'rand_init' is invalid in C99 [-Wimplicit-function-declaration]
+    rand_init(-1);
+    ^
+1 warning generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./main.o ./random.o   
+Finished building target: PRO3TEST
+ 
+19:39:00 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+21:04:21 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:333:5: warning: implicit declaration of function 'rand_init' is invalid in C99 [-Wimplicit-function-declaration]
+    rand_init(-1);
+    ^
+1 warning generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./main.o ./random.o   
+Finished building target: PRO3TEST
+ 
+21:04:24 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+21:04:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:333:5: warning: implicit declaration of function 'rand_init' is invalid in C99 [-Wimplicit-function-declaration]
+    rand_init(-1);
+    ^
+1 warning generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./main.o ./random.o   
+Finished building target: PRO3TEST
+ 
+21:04:57 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+03:13:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:333:5: warning: implicit declaration of function 'rand_init' is invalid in C99 [-Wimplicit-function-declaration]
+    rand_init(-1);
+    ^
+../config.c:366:5: warning: implicit declaration of function 'RunSim' is invalid in C99 [-Wimplicit-function-declaration]
+    RunSim(240.0);
+    ^
+2 warnings generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./main.o ./random.o   
+Finished building target: PRO3TEST
+ 
+15:32:13 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../application.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"application.d" -MT"application.o" -o "application.o" "../application.c"
+Finished building: ../application.c
+ 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:400:11: warning: unused variable 'configPath' [-Wunused-variable]
+    char* configPath = malloc(sizeof(char)*20);
+          ^
+../config.c:401:11: warning: unused variable 'outputPath' [-Wunused-variable]
+    char* outputPath = malloc(sizeof(char)*20);
+          ^
+../config.c:402:12: warning: unused variable 'runtime' [-Wunused-variable]
+    double runtime = 240.0;
+           ^
+3 warnings generated.
+Finished building: ../config.c
+ 
+Building file: ../engine.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"engine.d" -MT"engine.o" -o "engine.o" "../engine.c"
+Finished building: ../engine.c
+ 
+Building file: ../random.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"random.d" -MT"random.o" -o "random.o" "../random.c"
+Finished building: ../random.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./random.o   
+Finished building target: PRO3TEST
+ 
+15:32:18 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+15:32:53 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:400:11: warning: unused variable 'configPath' [-Wunused-variable]
+    char* configPath = malloc(sizeof(char)*20);
+          ^
+../config.c:402:12: warning: unused variable 'runtime' [-Wunused-variable]
+    double runtime = 240.0;
+           ^
+../config.c:401:11: warning: unused variable 'outputPath' [-Wunused-variable]
+    char* outputPath = malloc(sizeof(char)*20);
+          ^
+3 warnings generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./random.o   
+Finished building target: PRO3TEST
+ 
+15:32:54 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+15:33:14 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:402:12: warning: unused variable 'runtime' [-Wunused-variable]
+    double runtime = 240.0;
+           ^
+../config.c:401:11: warning: unused variable 'outputPath' [-Wunused-variable]
+    char* outputPath = malloc(sizeof(char)*20);
+          ^
+../config.c:400:11: warning: unused variable 'configPath' [-Wunused-variable]
+    char* configPath = malloc(sizeof(char)*20);
+          ^
+3 warnings generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./random.o   
+Finished building target: PRO3TEST
+ 
+15:33:19 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:401:11: warning: unused variable 'outputPath' [-Wunused-variable]
+    char* outputPath = malloc(sizeof(char)*20);
+          ^
+../config.c:402:12: warning: unused variable 'runtime' [-Wunused-variable]
+    double runtime = 240.0;
+           ^
+../config.c:400:11: warning: unused variable 'configPath' [-Wunused-variable]
+    char* configPath = malloc(sizeof(char)*20);
+          ^
+3 warnings generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./random.o   
+Finished building target: PRO3TEST
+ 
+16:32:53 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+Building file: ../config.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"config.d" -MT"config.o" -o "config.o" "../config.c"
+../config.c:401:11: warning: unused variable 'outputPath' [-Wunused-variable]
+    char* outputPath = malloc(sizeof(char)*20);
+          ^
+../config.c:402:12: warning: unused variable 'runtime' [-Wunused-variable]
+    double runtime = 240.0;
+           ^
+../config.c:400:11: warning: unused variable 'configPath' [-Wunused-variable]
+    char* configPath = malloc(sizeof(char)*20);
+          ^
+3 warnings generated.
+Finished building: ../config.c
+ 
+Building target: PRO3TEST
+Invoking: MacOS X C Linker
+gcc  -o "PRO3TEST"  ./application.o ./config.o ./engine.o ./random.o   
+Finished building target: PRO3TEST
+ 
+16:32:55 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.
+17:44:09 **** Incremental Build of configuration Debug for project PRO3TEST ****
+make all 
+make: Nothing to be done for `all'.

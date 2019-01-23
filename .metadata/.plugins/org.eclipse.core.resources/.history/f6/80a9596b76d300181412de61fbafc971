@@ -1,0 +1,432 @@
+//
+//  The functions for read and check configuration file.
+//
+//  Created by Zhiquan Zhang on 10/13/18.
+//  Copyright © 2018 Zhiquan Zhang. All rights reserved.
+//
+
+#include "config.h"
+#include "application.h"
+#include "engine.h"
+//The global Component array that can save the components information
+struct {
+    int ComponentType;  // GENERATOR, QUEUE_STATION, FORK, EXIT
+    void *Comp;         // Pointer to information on component (Generator, Exit struct, etc.)
+} Component_read[MAXCOMPONENTS_READ];
+
+//The function that can print the components' information.
+void print_read(int totalNum1){
+    for(int i=0; i<totalNum1; i++){
+        //Print the generator's information
+        if(Component_read[i].ComponentType == GENERATOR){
+            struct Generator* G_pointer= (struct Generator*)Component_read[i].Comp;
+            printf("The %dth comp is Gen, and its IntArrTime is %f, its DestComp is %d\n", i, G_pointer->IntArrTime, G_pointer->DestComp);
+        }
+        
+        //Print the fork's information
+        if(Component_read[i].ComponentType == FORK){
+            struct Fork* F_pointer= (struct Fork*)Component_read[i].Comp;
+            int totalnum = F_pointer->num;
+            printf("The %dth comp is Fork\n", i);
+            for(int i=0; i<totalnum; i++){
+                printf("The pro is %f, the dest is%d \n",F_pointer->probability[i], F_pointer->DestComp[i]);
+            }
+        }
+        
+        //Print the queue station's information
+        if(Component_read[i].ComponentType == QUEUE_STATION){
+            struct Queue_Station* Q_pointer= (struct Queue_Station*)Component_read[i].Comp;
+            printf("The %dth comp is Queue, and its IntArrTime is %f, its DestComp is %d\n", i, Q_pointer->AvgWaitTime, Q_pointer->DestComp);
+        }
+        
+        //Print the exit's information
+        if(Component_read[i].ComponentType == EXIT){
+            printf("The %dth comp is Exit\n", i);
+        }
+    }
+}
+
+//The function that can read data from a file and check the input file
+int read_file(FILE* f1){
+    if(f1==NULL){
+        fprintf(stderr, "read error!\n"); exit(1);
+    }
+    //Allocate memory for the string that save the first line
+    char* st = malloc(sizeof(char)*MIDSTRING);
+    if(st==NULL){
+        fprintf(stderr, "malloc error\n"); exit(1);
+    }
+    fgets(st, MIDSTRING, f1);
+    
+    //Check the format of the first line in the file
+    check_format(st, -1, -1);
+    int TotalNum = atoi(st);
+    free(st);
+    
+    //Some parameters for checking the number of components
+    int Gen_num = 0;
+    int Qs_num = 0;
+    int Fork_num = 0;
+    int Exit_num = 0;
+    
+    for(int i=0; i<TotalNum; i++){
+        int space_num = 0;
+        int new_begin = 0;
+        char type = 'N';
+        //Allocate memory for the string that save the each line's information
+        char* ch = malloc(sizeof(char)*MAXSTRING);
+        if(ch==NULL){
+            fprintf(stderr, "malloc error\n"); exit(1);
+        }
+        fgets(ch, MAXSTRING, f1);
+        
+        //Check the fundament format of each line
+        check_format(ch,i, TotalNum);
+        
+        //Read the type of every component
+        for(int j=0; j<MIDSTRING; j++){
+            if((ch[j]=='\t'||ch[j]==' ') && space_num==0 && (ch[j+1]!='\t'&&ch[j+1]!=' ')){
+                type = ch[j+1];
+                //Check type
+                if_type_exsit(type, i+1);
+                new_begin = j+2; //new_begin is the first space after the type character like 'G'
+                space_num++;
+                break;
+            }
+        }
+        
+        if(type == 'G'){
+            Component_read[atoi(ch)].ComponentType = GENERATOR;
+            struct Generator* g = malloc(sizeof(struct Generator));
+            if(g==NULL){
+                fprintf(stderr, "malloc error\n"); exit(1);
+            }
+            Gen_num++;
+            for(int j=new_begin; j<MAXSTRING; j++){
+                //Read the generator's generating interval time
+                if((ch[j]=='\t'||ch[j]==' ') && space_num==1 && (ch[j+1]!='\t'&&ch[j+1]!=' ')){
+                    g->IntArrTime = atof(ch+j+1);
+                    space_num++;
+                    continue;
+                }
+                
+                //Read the generator's destination
+                if((ch[j]=='\t'||ch[j]==' ') && space_num==2 && (ch[j+1]!='\t'&&ch[j+1]!=' ')){
+                    g->DestComp = atoi(ch+j+1);
+                    space_num++;
+                    continue;
+                }
+                if(ch[j]=='\0'){
+                    break;
+                }
+            }
+            //Check the destination of the generator
+            check_dest_queue_gen(TotalNum, g->DestComp,i);
+            Component_read[atoi(ch)].Comp = g;
+        }
+        
+        else if(type == 'Q'){
+            Component_read[atoi(ch)].ComponentType = QUEUE_STATION;
+            struct Queue_Station* q = malloc(sizeof(struct Queue_Station));
+            if(q==NULL){
+                fprintf(stderr, "malloc error\n"); exit(1);
+            }
+            Qs_num++;
+            for(int j=new_begin; j<MAXSTRING; j++){
+                //Read the queue station's service time
+                if((ch[j]=='\t'||ch[j]==' ') && space_num==1 && (ch[j+1]!='\t'&&ch[j+1]!=' ')){
+                    q->AvgWaitTime = atof(ch+j+1);
+                    space_num++;
+                    continue;
+                }
+                
+                //Read the queue station's destination
+                if((ch[j]=='\t'||ch[j]==' ') && space_num==2 && (ch[j+1]!='\t'&&ch[j+1]!=' ')){
+                    q->DestComp = atoi(ch+j+1);
+                    space_num++;
+                    continue;
+                }
+                if(ch[j]=='\0'){
+                    break;
+                }
+            }
+            //Check the destination of the queue_station
+            check_dest_queue_gen(TotalNum, q->DestComp,i);
+            Component_read[atoi(ch)].Comp = q;
+        }
+        
+        else if(type == 'F'){
+            Component_read[atoi(ch)].ComponentType = FORK;
+            struct Fork* f = malloc(sizeof(struct Fork));
+            if(f==NULL){
+                fprintf(stderr, "malloc error\n"); exit(1);
+            }
+            int pro_index = 0;
+            int dest_index = 0;
+            Fork_num++;
+            for(int j=new_begin; j<MAXSTRING; j++){
+                //read the output number of fork
+                if((ch[j]=='\t'||ch[j]==' ') && space_num==1 && (ch[j+1]!='\t'&&ch[j+1]!=' ')){
+                    f->num = atoi(ch+j+1);
+                    //Allocate memory for probability and destination
+                    f->probability = malloc(f->num*sizeof(double));
+                    if(f->probability==NULL){
+                        fprintf(stderr, "malloc error\n"); exit(1);
+                    }
+                    f->DestComp = malloc(f->num*sizeof(int));
+                    if(f->DestComp==NULL){
+                        fprintf(stderr, "malloc error\n"); exit(1);
+                    }
+                    space_num++;
+                    continue;
+                }
+                
+                //read the probability of fork
+                if((ch[j]=='\t'||ch[j]==' ') && space_num>=2 && (ch[j+1]!='\t'&&ch[j+1]!=' '&&(pro_index<f->num)) /*&& atof(ch+j+1)<1*/){
+                    f->probability[pro_index++] = atof(ch+j+1);
+                    space_num++;
+                    continue;
+                }
+                
+                //read the destination of fork
+                if((ch[j]=='\t'||ch[j]==' ') && (pro_index==f->num) && (ch[j+1]!='\t'&&ch[j+1]!=' ') /*&& atoi(ch+j+1)>=1*/){
+                    f->DestComp[dest_index++] = atoi(ch+j+1);
+                    //printf("!!!!%d!!!\n", f->DestComp[dest_index-1]);
+                    space_num++;
+                    continue;
+                }
+                
+                if(ch[j]=='\0'){
+                    break;
+                }
+            }
+            
+            Component_read[atoi(ch)].Comp = f;
+            
+            //Check whether the probability is legal
+            check_prob(f->num, f->probability, i);
+            //Check whether the destination is legal
+            check_dest_fork(TotalNum, f->num, f->DestComp, i);
+            //Check whether the destination and probablity's numbers are legal
+            if_numofdest_equal_numofpro(pro_index,dest_index, i);
+            
+        }
+        
+        else if(type == 'X'){
+            Component_read[atoi(ch)].ComponentType = EXIT;
+            struct Queue_Station* e = malloc(sizeof(struct Exit));
+            if(e==NULL){
+                fprintf(stderr, "malloc error\n"); exit(1);
+            }
+            Exit_num++;
+            Component_read[atoi(ch)].Comp = e;
+        }
+        free(ch);
+    }
+    //Check whether the total number of component is the same as the number of lines!
+    //check_totalnum(f1, TotalNum);
+    if(Gen_num==0 || Exit_num==0){
+        fprintf(stderr,"The number of generator or exit is 0!\n");
+        exit(1);
+    }
+    return TotalNum;
+}
+////////////////////////////////////////////////////////////////////////////
+//
+//Below are the functions that check whether the configuration file is legal or not
+//
+////////////////////////////////////////////////////////////////////////////
+//Check whether the probability
+void check_prob(int len, double* pro, int row){
+    if(pro==NULL){
+        fprintf(stderr, "pro pointer error!\n"); exit(1);
+    }
+    double sum = 0.0;
+    for(int i=0;i<len;i++){
+        //Check whether every probability is legal
+        if(pro[i]<0){
+            fprintf(stderr, "In the [%d] component line, the %dth probability is negative, please check input!",row, i);
+            exit(1);
+        }
+        
+        if(pro[i]>1){
+            fprintf(stderr,"In the [%d] component line, the %dth pro is larger than 1, please check input!\n", row, i);
+            exit(1);
+        }
+        
+        sum+=pro[i];
+    }
+    
+    //Check whether the sum if probability is greater than 1.0
+    if(sum > 1){
+        fprintf(stderr,"In the [%d] component line, the sum of folk's probability is over 1, please check input!\n", row);
+        exit(1);
+    }
+    
+    //Check whether the sum if probability is less than 1.0
+    else if(sum - 1 < 0 ){
+        fprintf(stderr,"sum is %f!\n",sum);
+        fprintf(stderr,"In the [%d] component line, the sum of the probability is less than 1, please check input!\n",row);
+        exit(1);
+    }
+}
+
+
+//Check the destination of fork
+void check_dest_fork(int totalnum, int len, int* des, int row){
+    if(des==NULL){
+        fprintf(stderr,"des pointer error!\n");
+    }
+    for(int i=1;i<len+1;i++){
+        if(des[i-1]>=totalnum){
+            fprintf(stderr,"In the [%d] component line, the destination %d doesn't exsit.\n", row, des[i-1]);
+            exit(1);
+        }
+    }
+}
+
+
+//Check the destination of queue_station and generator
+void check_dest_queue_gen(int totalnum, int des, int row){
+    if(des>=totalnum){
+        fprintf(stderr,"In the [%d] component line, the destination %d doesn't exsit.\n", row, des);
+        exit(1);
+    }
+}
+
+
+//Check in fork component whether the number of probability and destination are the same.
+void if_numofdest_equal_numofpro(int numofPro, int numofDest, int row){
+    if(numofPro!=numofDest){
+        fprintf(stderr,"In the [%d] component line, the number of probilities or destinitions are different or less than needed!\n", row);
+        exit(1);
+    }
+}
+
+//Check whether the type of component is legal
+void if_type_exsit(char type, int row){
+    if(type!='G' && type!='Q' && type!='X' && type!='F'){
+        fprintf(stderr,"In the [%d] component line, the type %c doesn't exsit!\n", row, type);
+        exit(1);
+    }
+}
+
+//Check the total number
+void check_totalnum(FILE* f1, int total_){
+    if(f1==NULL){
+        fprintf(stderr,"The input is null!\n");
+    }
+    char* ch = malloc(sizeof(char)*100);
+    fgets(ch, 100, f1);
+    //printf("%s\n",ch);
+    if(*ch==' '){
+        while(*ch==' ')
+            ch++;
+    }
+}
+
+
+//Check whether the file contains some special character like '&', '*', '^'.....other than numbers and letters. Check the format of the decimal.
+void check_format(char* ch, int row, int total){
+    int len = (int)strlen(ch);
+    for(int i=0; i<len; i++){
+        if((ch[i]<'0' || ch[i]>'9') && ch[i] != '.' && ch[i] != 'G'
+           && ch[i] != 'Q' && ch[i] != 'F' && ch[i] != 'X' && ch[i] != ' ' && ch[i]!='\t' && ch[i]!='\0' && ch[i]!='\n'){
+            
+            //When check the first line
+            if(row == -1){
+            fprintf(stderr,"The first line contains unrecognized character!\n");
+            fprintf(stderr,"It's [%c]!\n",ch[i]);
+            }
+            
+            //When check other component lines
+            else{
+            fprintf(stderr,"The [%d] component line contains unrecognized character!\n", row);
+            fprintf(stderr,"It's [%c]!\n",ch[i]);
+            }
+            exit(1);
+        }
+        
+        // Check the format of decimal
+        if(ch[i]=='.' && (ch[i+1]<'0' || ch[i+1]>'9')){
+            fprintf(stderr,"The [%d] component line contains decimal format error!\n", row);
+            exit(1);
+        }
+        
+        //Check whether the first character is a number
+        if(ch[0]<'0'||ch[0]>'9'){
+            fprintf(stderr,"What should be [%d] component line doesn't begin with number!\n", row);
+            exit(1);
+        }
+        
+        //Check the index of component
+        if(row!=-1){
+            if(atoi(ch)>=total){
+                fprintf(stderr,"In [%d] component line, the index is larger than total number!!\n", row);
+                exit(1);
+            }
+        }
+    }
+}
+
+//The function that can setup a system
+void SetupSystem(int totalnum){
+    for(int i=0; i<totalnum; i++){
+        if(Component_read[i].ComponentType == GENERATOR){
+            struct Generator* G_pointer= (struct Generator*)Component_read[i].Comp;
+            mkGenerator(i, G_pointer->IntArrTime, G_pointer->DestComp);
+        }
+        
+        if(Component_read[i].ComponentType == FORK){
+            struct Fork* F_pointer= (struct Fork*)Component_read[i].Comp;
+            mkFork(i, F_pointer->num, F_pointer->probability, F_pointer->DestComp);
+        }
+        
+        if(Component_read[i].ComponentType == QUEUE_STATION){
+            struct Queue_Station* Q_pointer= (struct Queue_Station*)Component_read[i].Comp;
+            mkStation(i, Q_pointer->AvgWaitTime, Q_pointer->DestComp);
+        }
+        
+        if(Component_read[i].ComponentType == EXIT){
+            //struct Exit* e_pointer= (struct Exit*)Component[i].Comp;
+            mkExit(i);
+        }
+    }
+}
+
+
+int main(int argc, char* argv[]){
+    //Read the input
+    char* configPath = malloc(sizeof(char)*20);
+    char* outputPath = malloc(sizeof(char)*20);
+    double runtime = atof(argv[1]);
+    strcpy(configPath,argv[2]);
+    strcat(configPath,".txt");
+    strcpy(outputPath,argv[3]);
+    strcat(outputPath,".txt");
+    
+    //Read file and check
+    FILE* f1;
+    f1 = fopen(configPath, "r");
+    int TotalNum = read_file(f1);
+    
+    //Initialize and run the simulation
+    initialize(TotalNum);
+    SetupSystem(TotalNum);
+    RunSim(runtime);
+    
+    //Get the data that we need
+    reportStatistics(outputPath);
+    
+    //Other analysis file generating
+    //reportStation(1,"report_station.csv");
+    //reportExit(TotalNum-1, "report_exit.csv");
+    //reportSystem("report_system.csv");
+    
+    //close and free
+    fclose(f1);
+    free(configPath);
+    free(outputPath);
+    freeVariables();
+    return 0;
+}

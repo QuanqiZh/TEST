@@ -1,0 +1,30 @@
+9.29
+
+For graph.c file
+
+1. Change some funtions' name like line 19 in "graph.c" "fromStringtoGraph" to "from_file_to_graph", "showList" to "show_list", "dfsExploreVertexNodes" to "dfs_explore_vertexNodes".
+
+2. For "graph.c" file, all global variable are eliminated and transformed into pointer. And all functions' input parameters are changed correspondingly. Like "from_file_to_graph", "dfs_explore_vertexNodes", 
+
+3. Merge the function "analysis" and "output" into one function "analysis" 
+
+For graph.h file
+
+1. Change the function's name and input parameters accordingly.
+
+For main.c file
+
+1. Delele all global parameters.
+
+2. Create more pointers to replace global variables. From line 46-55 you can see some are new pointers and they are allocated memory.
+
+3. Add some free function for new pointers.
+
+For pro1graph.c and pro1graph.h file
+
+1. Change some functions name, eliminate global variables, change the input parameters like function  "graph_generate", "create_graph", "check_neighbors".
+
+For pro1main.c file
+1.In line 27,line 28, add some new pointer to replace global variables and allocate memory for them. 
+
+ 

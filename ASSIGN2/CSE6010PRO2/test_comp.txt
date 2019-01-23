@@ -1,0 +1,32 @@
+#!/bin/bash
+for (( i = 1; i < 10; i++ )); do
+ output_file="analysis_1000_0.${I}.txt"
+ input_file="topology_1000_0.${I}.txt"
+ echo $i
+ ./gen 1000 "0.0${i}" "/nv/coc-ice/zzhang749/cse6010/part2/data/${input_file}"
+ #./zzq "/nv/coc-ice/zzhang749/cse6010/part2/data/${input_file}" "/nv/coc-ice/zzhang749/cse6010/part2/analysis/${output_file}"
+ #statements
+done
+
+
+
+#!/bin/bash
+for (( i = 1; i < 10; i++ )); do
+ output_file="outfile_1000_0.0${i}_1.txt"
+ input_file="topology_1000_0.0${i}_1.txt"
+ echo $i
+ #./graphgen 1000 "0.0${i}" "./data/group1/${input_file}"
+ ./components "./data/group1/${input_file}" "./outdata/group1/${output_file}"
+ #statements
+done
+
+
+#!/bin/bash
+for (( i = 10; i < 100; i++ )); do
+ output_file="outfile_100_0.${i}.txt"
+ input_file="topology_100_0.${i}.txt"
+ echo $i
+ ./graphgen 100 "0.${i}" "/Users/zoe/XCode_workspace/CSE_6010_A2_yzheng394_Components/CSE_6010_A2_yzheng394_Components/data/group4/${input_file}"
+ #./components "/Users/zoe/XCode_workspace/CSE_6010_A2_yzheng394_Components/CSE_6010_A2_yzheng394_Components/data/group4/${input_file}" "/Users/zoe/XCode_workspace/CSE_6010_A2_yzheng394_Components/CSE_6010_A2_yzheng394_Components/outdata/group4/${output_file}"
+ #statements
+done
