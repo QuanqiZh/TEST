@@ -1,0 +1,54 @@
+Statistics for the whole system:
+Number of components in system: 16
+Number of customers entered: 188
+Number of customers exited: 181
+  Maximum total wait time among customers: 29.1
+  Minimum total wait time among customers: 0.0
+  Average total wait time among customers: 3.9
+
+Statistics for Station 1:
+  Number of customers waiting in line: 22
+  Average waiting time of the whole line: 0.3
+
+Statistics for Station 3:
+  Number of customers waiting in line: 1
+  Average waiting time of the whole line: 1.0
+
+Statistics for Station 4:
+  Number of customers waiting in line: 8
+  Average waiting time of the whole line: 3.3
+
+Statistics for Station 5:
+  Number of customers waiting in line: 31
+  Average waiting time of the whole line: 10.8
+
+Statistics for Station 6:
+  Number of customers waiting in line: 28
+  Average waiting time of the whole line: 3.0
+
+Statistics for Station 7:
+  Number of customers waiting in line: 19
+  Average waiting time of the whole line: 3.1
+
+Statistics for Station 9:
+  Number of customers waiting in line: 31
+  Average waiting time of the whole line: 1.3
+
+Statistics for Station 10:
+  Number of customers waiting in line: 40
+  Average waiting time of the whole line: 1.2
+
+Statistics for Station 12:
+  Number of customers waiting in line: 30
+  Average waiting time of the whole line: 2.5
+
+Statistics for Station 13:
+  Number of customers waiting in line: 46
+  Average waiting time of the whole line: 1.5
+
+Statistics for Exit 15:
+  Number of customers exited: 181
+  Maximum time in the system: 34.3
+  Minimum time in the system: 0.5
+  Average time in the system: 9.0
+
